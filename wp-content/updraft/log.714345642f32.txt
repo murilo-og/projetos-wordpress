@@ -1,0 +1,335 @@
+0000.016 () Opened log file at time: Thu, 07 Aug 2025 20:22:38 +0000 on http://localhost/psigiovanaceron
+0000.016 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Linux Linux 5.15.0-144-generic #157-Ubuntu SMP Mon Jun 16 07:33:10 UTC 2025 x86_64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 40.7M | 42.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: pt_BR.UTF-8 WP Proxy: disabled ZipArchive::addFile: Y
+0000.016 () Free space on disk containing Updraft's temporary directory: 813558.8 MB
+0000.040 () Restore setup, now closing connection and starting restore over AJAX.
+0000.006 () Opened log file at time: Thu, 07 Aug 2025 20:22:39 +0000 on http://localhost/psigiovanaceron
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Linux Linux 5.15.0-144-generic #157-Ubuntu SMP Mon Jun 16 07:33:10 UTC 2025 x86_64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 36.4M | 38.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: pt_BR.UTF-8 WP Proxy: disabled ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 813558 MB
+0000.021 () Ensuring WP_Filesystem is setup for a restore
+0000.021 () WP_Filesystem is setup and ready for a restore
+0000.027 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["adm_wpoptions","adm_wpusers","adm_wpusermeta","adm_wpactionscheduler_actions","adm_wpactionscheduler_claims","adm_wpactionscheduler_groups","adm_wpactionscheduler_logs","adm_wpcommentmeta","adm_wpcomments","adm_wplinks","adm_wppostmeta","adm_wpposts","adm_wpterm_relationships","adm_wpterm_taxonomy","adm_wptermmeta","adm_wpterms","adm_wpwpr_above_the_fold","adm_wpwpr_lazy_render_content","adm_wpwpr_rocket_cache","adm_wpwpr_rucss_used_css","adm_wpaioseo_blc_cache","adm_wpaioseo_blc_link_status","adm_wpaioseo_blc_links","adm_wpaioseo_blc_notifications","adm_wpaioseo_blc_posts","adm_wpaioseo_cache","adm_wpaioseo_crawl_cleanup_blocked_args","adm_wpaioseo_crawl_cleanup_logs","adm_wpaioseo_notifications","adm_wpaioseo_posts","adm_wpaioseo_redirects","adm_wpaioseo_redirects_404","adm_wpaioseo_redirects_404_logs","adm_wpaioseo_redirects_hits","adm_wpaioseo_redirects_logs","adm_wpaioseo_terms","adm_wpaioseo_writing_assistant_keywords","adm_wpaioseo_writing_assistant_posts","adm_wpe_events","adm_wpe_submissions","adm_wpe_submissions_actions_log","adm_wpe_submissions_values","adm_wptrustindex_google_reviews"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.027 () PHP event: code E_WARNING: mkdir(): Arquivo existe (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.029 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.032 () Entity: db
+0000.032 () restore_backup(backup_file=backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-db.gz, type=db, info=a:0:{}, last_one=)
+0000.033 () Unpacking backup... (backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-db.gz, 2.4 Mb)
+0000.033 () PHP event: code E_WARNING: mkdir(): Arquivo existe (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.035 () Database successfully unpacked
+0000.035 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.035 () Using direct MySQL access; value of use_mysqli is: 1
+0000.036 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.084 () Max packet size: 32 MB
+0000.084 () Entering maintenance mode
+0000.084 () Enabling Maintenance mode&#8230;
+0000.084 () PHP event: code E_WARNING: fopen(/opt/lampp/htdocs/psigiovanaceron/.maintenance): Failed to open stream: Permissão negada (line 66, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.085 () is_stored_routine_supported(): An error occurred while attempting to check the support of stored routines creation (Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100432. Please use mysql_upgrade to fix this error - CREATE FUNCTION updraft_test_stored_routine() RETURNS tinyint(1) DETERMINISTIC READS SQL DATA RETURN true)
+0000.085 () Backup of: https://psigiovanaceron.com.br
+0000.098 () Content URL: https://psigiovanaceron.com.br/wp-content
+0000.098 () Uploads URL: https://psigiovanaceron.com.br/wp-content/uploads
+0000.098 () Old table prefix: adm_wp
+0000.098 () Old ABSPATH: /home3/muri8733/psigiovanaceron.com.br/
+0000.098 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.098 () Site information: multisite=0
+0000.099 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.099 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.099 () New table prefix: gi_
+0000.104 () Processing table (MyISAM): adm_wpoptions - will restore as: gi_options
+0000.163 () Atomic restore: dropping original table (wps_options)
+0000.170 () Atomic restore: renaming new table (gi_options) to final table name (wps_options)
+0000.170 () Restoring prior UD configuration (table: wps_options; keys: 102)
+0000.244 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.244 () Options table fields changed OK
+0000.246 () WP Rocket CDN option detected: disabling the option
+0000.248 () Search and replacing table: wps_options: rows: 498
+0000.254 () Incomplete object detected in database: stdClass; Search and replace will be skipped for these entries
+0000.254 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.256 () Incomplete object detected in database: Elementor\Core\Logger\Items\Base; Search and replace will be skipped for these entries
+0000.256 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0000.274 () Incomplete object detected in database: WpOrg\Requests\Utility\CaseInsensitiveDictionary; Search and replace will be skipped for these entries
+0000.282 () Incomplete object detected in database: WP_Error; Search and replace will be skipped for these entries
+0000.283 () Processing table (MyISAM): adm_wpusers - will restore as: gi_users
+0000.290 () Atomic restore: dropping original table (wps_users)
+0000.298 () Atomic restore: renaming new table (gi_users) to final table name (wps_users)
+0000.300 () Search and replacing table: wps_users: rows: 1
+0000.300 () Processing table (MyISAM): adm_wpusermeta - will restore as: gi_usermeta
+0000.306 () Atomic restore: dropping original table (wps_usermeta)
+0000.314 () Atomic restore: renaming new table (gi_usermeta) to final table name (wps_usermeta)
+0000.315 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.315 () Usermeta table fields changed OK
+0000.316 () Search and replacing table: wps_usermeta: rows: 33
+0000.318 () Processing table (MyISAM): adm_wpactionscheduler_actions - will restore as: gi_actionscheduler_actions
+0000.367 () Atomic restore: dropping original table (wps_actionscheduler_actions)
+0000.368 () Atomic restore: renaming new table (gi_actionscheduler_actions) to final table name (wps_actionscheduler_actions)
+0000.369 () Search and replacing table: wps_actionscheduler_actions: rows: 794
+0000.371 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0000.371 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0000.382 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0000.404 () Processing table (MyISAM): adm_wpactionscheduler_claims - will restore as: gi_actionscheduler_claims
+0000.410 () Atomic restore: dropping original table (wps_actionscheduler_claims)
+0000.410 () Atomic restore: renaming new table (gi_actionscheduler_claims) to final table name (wps_actionscheduler_claims)
+0000.412 () Search and replacing table: wps_actionscheduler_claims: rows: 0
+0000.412 () Processing table (MyISAM): adm_wpactionscheduler_groups - will restore as: gi_actionscheduler_groups
+0000.418 () Atomic restore: dropping original table (wps_actionscheduler_groups)
+0000.418 () Atomic restore: renaming new table (gi_actionscheduler_groups) to final table name (wps_actionscheduler_groups)
+0000.419 () Search and replacing table: wps_actionscheduler_groups: rows: 8
+0000.419 () Processing table (MyISAM): adm_wpactionscheduler_logs - will restore as: gi_actionscheduler_logs
+0000.454 () Atomic restore: dropping original table (wps_actionscheduler_logs)
+0000.455 () Atomic restore: renaming new table (gi_actionscheduler_logs) to final table name (wps_actionscheduler_logs)
+0000.457 () Search and replacing table: wps_actionscheduler_logs: rows: 2356
+0000.488 () Processing table (MyISAM): adm_wpcommentmeta - will restore as: gi_commentmeta
+0000.494 () Atomic restore: dropping original table (wps_commentmeta)
+0000.503 () Atomic restore: renaming new table (gi_commentmeta) to final table name (wps_commentmeta)
+0000.505 () Search and replacing table: wps_commentmeta: rows: 0
+0000.505 () Processing table (MyISAM): adm_wpcomments - will restore as: gi_comments
+0000.510 () Atomic restore: dropping original table (wps_comments)
+0000.518 () Atomic restore: renaming new table (gi_comments) to final table name (wps_comments)
+0000.520 () Search and replacing table: wps_comments: rows: 1
+0000.520 () Processing table (MyISAM): adm_wplinks - will restore as: gi_links
+0000.526 () Atomic restore: dropping original table (wps_links)
+0000.535 () Atomic restore: renaming new table (gi_links) to final table name (wps_links)
+0000.536 () Search and replacing table: wps_links: rows: 0
+0000.536 () Processing table (MyISAM): adm_wppostmeta - will restore as: gi_postmeta
+0000.870 () Database queries processed: 50 in 0.83 seconds
+0001.588 () Atomic restore: dropping original table (wps_postmeta)
+0001.598 () Atomic restore: renaming new table (gi_postmeta) to final table name (wps_postmeta)
+0001.638 () Search and replacing table: wps_postmeta: rows: 615
+0004.321 () Processing table (MyISAM): adm_wpposts - will restore as: gi_posts
+0004.509 () Atomic restore: dropping original table (wps_posts)
+0004.519 () Atomic restore: renaming new table (gi_posts) to final table name (wps_posts)
+0004.521 () Skipping search/replace on GUID column in posts table
+0004.521 () Search and replacing table: wps_posts: rows: 663
+0004.759 () Processing table (MyISAM): adm_wpterm_relationships - will restore as: gi_term_relationships
+0004.764 () Atomic restore: dropping original table (wps_term_relationships)
+0004.773 () Atomic restore: renaming new table (gi_term_relationships) to final table name (wps_term_relationships)
+0004.773 () Skipping this table: data in this table (wps_term_relationships) should not be search/replaced
+0004.774 () Processing table (MyISAM): adm_wpterm_taxonomy - will restore as: gi_term_taxonomy
+0004.779 () Database queries processed: 100 in 4.74 seconds
+0004.780 () Atomic restore: dropping original table (wps_term_taxonomy)
+0004.787 () Atomic restore: renaming new table (gi_term_taxonomy) to final table name (wps_term_taxonomy)
+0004.788 () Search and replacing table: wps_term_taxonomy: rows: 6
+0004.788 () Processing table (MyISAM): adm_wptermmeta - will restore as: gi_termmeta
+0004.793 () Atomic restore: dropping original table (wps_termmeta)
+0004.801 () Atomic restore: renaming new table (gi_termmeta) to final table name (wps_termmeta)
+0004.802 () Search and replacing table: wps_termmeta: rows: 0
+0004.802 () Processing table (MyISAM): adm_wpterms - will restore as: gi_terms
+0004.808 () Atomic restore: dropping original table (wps_terms)
+0004.817 () Atomic restore: renaming new table (gi_terms) to final table name (wps_terms)
+0004.818 () Search and replacing table: wps_terms: rows: 6
+0004.819 () Processing table (InnoDB): adm_wpwpr_above_the_fold - will restore as: gi_wpr_above_the_fold
+0004.843 () Atomic restore: dropping original table (wps_wpr_above_the_fold)
+0004.844 () Atomic restore: renaming new table (gi_wpr_above_the_fold) to final table name (wps_wpr_above_the_fold)
+0004.853 () Search and replacing table: wps_wpr_above_the_fold: rows: 0
+0004.853 () Processing table (InnoDB): adm_wpwpr_lazy_render_content - will restore as: gi_wpr_lazy_render_content
+0004.876 () Atomic restore: dropping original table (wps_wpr_lazy_render_content)
+0004.876 () Atomic restore: renaming new table (gi_wpr_lazy_render_content) to final table name (wps_wpr_lazy_render_content)
+0004.887 () Search and replacing table: wps_wpr_lazy_render_content: rows: 0
+0004.887 () Processing table (InnoDB): adm_wpwpr_rocket_cache - will restore as: gi_wpr_rocket_cache
+0004.910 () Atomic restore: dropping original table (wps_wpr_rocket_cache)
+0004.911 () Atomic restore: renaming new table (gi_wpr_rocket_cache) to final table name (wps_wpr_rocket_cache)
+0004.925 () Search and replacing table: wps_wpr_rocket_cache: rows: 4
+0004.935 () Processing table (InnoDB): adm_wpwpr_rucss_used_css - will restore as: gi_wpr_rucss_used_css
+0004.964 () Atomic restore: dropping original table (wps_wpr_rucss_used_css)
+0004.965 () Atomic restore: renaming new table (gi_wpr_rucss_used_css) to final table name (wps_wpr_rucss_used_css)
+0004.988 () Search and replacing table: wps_wpr_rucss_used_css: rows: 0
+0004.988 () Processing table (InnoDB): adm_wpaioseo_blc_cache - will restore as: gi_aioseo_blc_cache
+0005.011 () Atomic restore: dropping original table (wps_aioseo_blc_cache)
+0005.012 () Atomic restore: renaming new table (gi_aioseo_blc_cache) to final table name (wps_aioseo_blc_cache)
+0005.024 () Search and replacing table: wps_aioseo_blc_cache: rows: 7
+0005.024 () Processing table (InnoDB): adm_wpaioseo_blc_link_status - will restore as: gi_aioseo_blc_link_status
+0005.043 () Atomic restore: dropping original table (wps_aioseo_blc_link_status)
+0005.044 () Atomic restore: renaming new table (gi_aioseo_blc_link_status) to final table name (wps_aioseo_blc_link_status)
+0005.056 () Search and replacing table: wps_aioseo_blc_link_status: rows: 3
+0005.059 () Processing table (InnoDB): adm_wpaioseo_blc_links - will restore as: gi_aioseo_blc_links
+0005.081 () Atomic restore: dropping original table (wps_aioseo_blc_links)
+0005.081 () Atomic restore: renaming new table (gi_aioseo_blc_links) to final table name (wps_aioseo_blc_links)
+0005.092 () Search and replacing table: wps_aioseo_blc_links: rows: 13
+0005.113 () Processing table (InnoDB): adm_wpaioseo_blc_notifications - will restore as: gi_aioseo_blc_notifications
+0005.136 () Atomic restore: dropping original table (wps_aioseo_blc_notifications)
+0005.136 () Atomic restore: renaming new table (gi_aioseo_blc_notifications) to final table name (wps_aioseo_blc_notifications)
+0005.149 () Search and replacing table: wps_aioseo_blc_notifications: rows: 0
+0005.149 () Processing table (InnoDB): adm_wpaioseo_blc_posts - will restore as: gi_aioseo_blc_posts
+0005.168 () Atomic restore: dropping original table (wps_aioseo_blc_posts)
+0005.168 () Atomic restore: renaming new table (gi_aioseo_blc_posts) to final table name (wps_aioseo_blc_posts)
+0005.180 () Search and replacing table: wps_aioseo_blc_posts: rows: 6
+0005.180 () Processing table (InnoDB): adm_wpaioseo_cache - will restore as: gi_aioseo_cache
+0005.229 () Atomic restore: dropping original table (wps_aioseo_cache)
+0005.229 () Atomic restore: renaming new table (gi_aioseo_cache) to final table name (wps_aioseo_cache)
+0005.240 () Search and replacing table: wps_aioseo_cache: rows: 64
+0005.249 () Processing table (InnoDB): adm_wpaioseo_crawl_cleanup_blocked_args - will restore as: gi_aioseo_crawl_cleanup_blocked_args
+0005.268 () Atomic restore: dropping original table (wps_aioseo_crawl_cleanup_blocked_args)
+0005.268 () Atomic restore: renaming new table (gi_aioseo_crawl_cleanup_blocked_args) to final table name (wps_aioseo_crawl_cleanup_blocked_args)
+0005.279 () Search and replacing table: wps_aioseo_crawl_cleanup_blocked_args: rows: 0
+0005.279 () Processing table (InnoDB): adm_wpaioseo_crawl_cleanup_logs - will restore as: gi_aioseo_crawl_cleanup_logs
+0005.294 () Atomic restore: dropping original table (wps_aioseo_crawl_cleanup_logs)
+0005.294 () Atomic restore: renaming new table (gi_aioseo_crawl_cleanup_logs) to final table name (wps_aioseo_crawl_cleanup_logs)
+0005.303 () Search and replacing table: wps_aioseo_crawl_cleanup_logs: rows: 0
+0005.303 () Processing table (InnoDB): adm_wpaioseo_notifications - will restore as: gi_aioseo_notifications
+0005.334 () Atomic restore: dropping original table (wps_aioseo_notifications)
+0005.334 () Atomic restore: renaming new table (gi_aioseo_notifications) to final table name (wps_aioseo_notifications)
+0005.342 () Search and replacing table: wps_aioseo_notifications: rows: 10
+0005.343 () Processing table (InnoDB): adm_wpaioseo_posts - will restore as: gi_aioseo_posts
+0005.362 () Atomic restore: dropping original table (wps_aioseo_posts)
+0005.363 () Atomic restore: renaming new table (gi_aioseo_posts) to final table name (wps_aioseo_posts)
+0005.375 () Search and replacing table: wps_aioseo_posts: rows: 15
+0005.428 () Processing table (InnoDB): adm_wpaioseo_redirects - will restore as: gi_aioseo_redirects
+0005.461 () Atomic restore: dropping original table (wps_aioseo_redirects)
+0005.462 () Atomic restore: renaming new table (gi_aioseo_redirects) to final table name (wps_aioseo_redirects)
+0005.472 () Search and replacing table: wps_aioseo_redirects: rows: 0
+0005.472 () Processing table (InnoDB): adm_wpaioseo_redirects_404 - will restore as: gi_aioseo_redirects_404
+0005.490 () Atomic restore: dropping original table (wps_aioseo_redirects_404)
+0005.490 () Atomic restore: renaming new table (gi_aioseo_redirects_404) to final table name (wps_aioseo_redirects_404)
+0005.500 () Search and replacing table: wps_aioseo_redirects_404: rows: 0
+0005.500 () Processing table (InnoDB): adm_wpaioseo_redirects_404_logs - will restore as: gi_aioseo_redirects_404_logs
+0005.541 () Atomic restore: dropping original table (wps_aioseo_redirects_404_logs)
+0005.541 () Atomic restore: renaming new table (gi_aioseo_redirects_404_logs) to final table name (wps_aioseo_redirects_404_logs)
+0005.552 () Search and replacing table: wps_aioseo_redirects_404_logs: rows: 173
+0005.865 () Processing table (InnoDB): adm_wpaioseo_redirects_hits - will restore as: gi_aioseo_redirects_hits
+0005.883 () Database queries processed: 150 in 5.85 seconds
+0005.884 () Atomic restore: dropping original table (wps_aioseo_redirects_hits)
+0005.884 () Atomic restore: renaming new table (gi_aioseo_redirects_hits) to final table name (wps_aioseo_redirects_hits)
+0005.896 () Search and replacing table: wps_aioseo_redirects_hits: rows: 0
+0005.896 () Processing table (InnoDB): adm_wpaioseo_redirects_logs - will restore as: gi_aioseo_redirects_logs
+0005.915 () Atomic restore: dropping original table (wps_aioseo_redirects_logs)
+0005.916 () Atomic restore: renaming new table (gi_aioseo_redirects_logs) to final table name (wps_aioseo_redirects_logs)
+0005.928 () Search and replacing table: wps_aioseo_redirects_logs: rows: 0
+0005.928 () Processing table (InnoDB): adm_wpaioseo_terms - will restore as: gi_aioseo_terms
+0005.944 () Atomic restore: dropping original table (wps_aioseo_terms)
+0005.945 () Atomic restore: renaming new table (gi_aioseo_terms) to final table name (wps_aioseo_terms)
+0005.957 () Search and replacing table: wps_aioseo_terms: rows: 0
+0005.957 () Processing table (InnoDB): adm_wpaioseo_writing_assistant_keywords - will restore as: gi_aioseo_writing_assistant_keywords
+0005.975 () Atomic restore: dropping original table (wps_aioseo_writing_assistant_keywords)
+0005.976 () Atomic restore: renaming new table (gi_aioseo_writing_assistant_keywords) to final table name (wps_aioseo_writing_assistant_keywords)
+0006.024 () Search and replacing table: wps_aioseo_writing_assistant_keywords: rows: 0
+0006.024 () Processing table (InnoDB): adm_wpaioseo_writing_assistant_posts - will restore as: gi_aioseo_writing_assistant_posts
+0006.043 () Atomic restore: dropping original table (wps_aioseo_writing_assistant_posts)
+0006.043 () Atomic restore: renaming new table (gi_aioseo_writing_assistant_posts) to final table name (wps_aioseo_writing_assistant_posts)
+0006.056 () Search and replacing table: wps_aioseo_writing_assistant_posts: rows: 0
+0006.056 () Processing table (MyISAM): adm_wpe_events - will restore as: gi_e_events
+0006.063 () Atomic restore: dropping original table (wps_e_events)
+0006.063 () Atomic restore: renaming new table (gi_e_events) to final table name (wps_e_events)
+0006.066 () Search and replacing table: wps_e_events: rows: 0
+0006.066 () Processing table (MyISAM): adm_wpe_submissions - will restore as: gi_e_submissions
+0006.072 () Atomic restore: dropping original table (wps_e_submissions)
+0006.073 () Atomic restore: renaming new table (gi_e_submissions) to final table name (wps_e_submissions)
+0006.075 () Search and replacing table: wps_e_submissions: rows: 0
+0006.075 () Processing table (MyISAM): adm_wpe_submissions_actions_log - will restore as: gi_e_submissions_actions_log
+0006.081 () Atomic restore: dropping original table (wps_e_submissions_actions_log)
+0006.081 () Atomic restore: renaming new table (gi_e_submissions_actions_log) to final table name (wps_e_submissions_actions_log)
+0006.084 () Search and replacing table: wps_e_submissions_actions_log: rows: 0
+0006.084 () Processing table (MyISAM): adm_wpe_submissions_values - will restore as: gi_e_submissions_values
+0006.090 () Atomic restore: dropping original table (wps_e_submissions_values)
+0006.090 () Atomic restore: renaming new table (gi_e_submissions_values) to final table name (wps_e_submissions_values)
+0006.092 () Search and replacing table: wps_e_submissions_values: rows: 0
+0006.092 () Processing table (MyISAM): adm_wptrustindex_google_reviews - will restore as: gi_trustindex_google_reviews
+0006.097 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0006.098 () Unlocking database and leaving maintenance mode
+0006.098 () Atomic restore: dropping original table (wps_trustindex_google_reviews)
+0006.098 () Atomic restore: renaming new table (gi_trustindex_google_reviews) to final table name (wps_trustindex_google_reviews)
+0006.100 () Search and replacing table: wps_trustindex_google_reviews: rows: 10
+0006.101 () Finished: lines processed: 172 in 6.06 seconds
+0006.102 () Cleaning up rubbish...
+0006.102 () Begin search and replace (updraftplus_restored_db)
+0006.102 () [Database-replace-site-url] Database: search and replace site URL
+0006.102 () Database search and replace: replace https://psigiovanaceron.com.br in backup dump with http://localhost/psigiovanaceron
+0006.102 () Database search and replace: replace http://www.psigiovanaceron.com.br in backup dump with http://localhost/psigiovanaceron
+0006.103 () Database search and replace: replace http://psigiovanaceron.com.br in backup dump with http://localhost/psigiovanaceron
+0006.103 () Database search and replace: replace https://www.psigiovanaceron.com.br in backup dump with http://localhost/psigiovanaceron
+0006.103 () Database search and replace: replace /home3/muri8733/psigiovanaceron.com.br in backup dump with /opt/lampp/htdocs/psigiovanaceron
+0006.103 () Search and replacing table: wps_actionscheduler_actions: already done
+0006.104 () Search and replacing table: wps_actionscheduler_claims: already done
+0006.104 () Search and replacing table: wps_actionscheduler_groups: already done
+0006.104 () Search and replacing table: wps_actionscheduler_logs: already done
+0006.104 () Search and replacing table: wps_aioseo_blc_cache: already done
+0006.104 () Search and replacing table: wps_aioseo_blc_link_status: already done
+0006.104 () Search and replacing table: wps_aioseo_blc_links: already done
+0006.104 () Search and replacing table: wps_aioseo_blc_notifications: already done
+0006.105 () Search and replacing table: wps_aioseo_blc_posts: already done
+0006.105 () Search and replacing table: wps_aioseo_cache: already done
+0006.105 () Search and replacing table: wps_aioseo_crawl_cleanup_blocked_args: already done
+0006.105 () Search and replacing table: wps_aioseo_crawl_cleanup_logs: already done
+0006.105 () Search and replacing table: wps_aioseo_notifications: already done
+0006.105 () Search and replacing table: wps_aioseo_posts: already done
+0006.105 () Search and replacing table: wps_aioseo_redirects: already done
+0006.105 () Search and replacing table: wps_aioseo_redirects_404: already done
+0006.105 () Search and replacing table: wps_aioseo_redirects_404_logs: already done
+0006.106 () Search and replacing table: wps_aioseo_redirects_hits: already done
+0006.106 () Search and replacing table: wps_aioseo_redirects_logs: already done
+0006.106 () Search and replacing table: wps_aioseo_terms: already done
+0006.106 () Search and replacing table: wps_aioseo_writing_assistant_keywords: already done
+0006.106 () Search and replacing table: wps_aioseo_writing_assistant_posts: already done
+0006.106 () Search and replacing table: wps_commentmeta: already done
+0006.106 () Search and replacing table: wps_comments: already done
+0006.106 () Search and replacing table: wps_e_events: already done
+0006.106 () Search and replacing table: wps_e_submissions: already done
+0006.106 () Search and replacing table: wps_e_submissions_actions_log: already done
+0006.106 () Search and replacing table: wps_e_submissions_values: already done
+0006.107 () Search and replacing table: wps_links: already done
+0006.107 () Search and replacing table: wps_options: already done
+0006.107 () Search and replacing table: wps_postmeta: already done
+0006.107 () Search and replacing table: wps_posts: already done
+0006.107 () Search and replacing table: wps_term_relationships: already done
+0006.107 () Search and replacing table: wps_term_taxonomy: already done
+0006.107 () Search and replacing table: wps_termmeta: already done
+0006.107 () Search and replacing table: wps_terms: already done
+0006.107 () Search and replacing table: wps_trustindex_google_reviews: already done
+0006.108 () Search and replacing table: wps_usermeta: already done
+0006.108 () Search and replacing table: wps_users: already done
+0006.108 () Search and replacing table: wps_wpr_above_the_fold: already done
+0006.108 () Search and replacing table: wps_wpr_lazy_render_content: already done
+0006.108 () Search and replacing table: wps_wpr_rocket_cache: already done
+0006.108 () Search and replacing table: wps_wpr_rucss_used_css: already done
+0006.112 () Entity: plugins
+0006.113 () restore_backup(backup_file=backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:52:"/opt/lampp/htdocs/psigiovanaceron/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0006.113 () Unpacking backup... (backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-plugins.zip, 56 MB)
+0006.114 () Unzipping backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-plugins.zip to /opt/lampp/htdocs/psigiovanaceron/wp-content/upgrade/0ee5e202/ using UpdraftPlus_ZipArchive, starting index 0
+0006.326 () Unzip progress: 2177 out of 13159 files (1.7 KB, plugins/ocean-extra/includes/themepanel/views/panes/quick-settings.php)
+0006.512 () Unzip progress: 3178 out of 13159 files (24.5 MB, plugins/wp-rocket/inc/Dependencies/League/Container/Argument/LiteralArgumentInterface.php)
+0006.667 () Unzip progress: 4179 out of 13159 files (43.9 MB, plugins/all-in-one-seo-pack-pro/app/Common/Admin/SlugMonitor.php)
+0006.778 () Unzip progress: 5180 out of 13159 files (54 MB, plugins/index.php)
+0006.930 () Unzip progress: 6181 out of 13159 files (72.4 MB, plugins/elementor/assets/js/ai.js)
+0007.107 () Unzip progress: 7182 out of 13159 files (97.4 MB, plugins/elementor/modules/atomic-widgets/prop-types/primitives/boolean-prop-type.php)
+0007.286 () Unzip progress: 8183 out of 13159 files (124.3 MB, plugins/elementor-pro/modules/dynamic-tags/components/author-meta-filter.php)
+0007.397 () Unzip progress: 9184 out of 13159 files (135.8 MB, plugins/updraftplus/vendor/guzzlehttp/psr7/src/StreamWrapper.php)
+0007.590 () Unzip progress: 10185 out of 13159 files (160 MB, plugins/essential-addons-elementor/assets/front-end/js/lib-view/twentytwenty/jquery.twentytwenty.min.js)
+0007.698 () Unzip progress: 11186 out of 13159 files (171.3 MB, plugins/all-in-one-seo-pack/dist/Lite/assets/css/KeywordsGraph.2b3f4acc.css)
+0007.811 () Unzip progress: 12187 out of 13159 files (182.1 MB, plugins/image-optimization/modules/connect/rest/version.php)
+0007.923 () Unzip progress: 13159 out of 13159 files (193 MB, plugins/all-in-one-seo-pack/dist/Lite/assets/css/HighlightToggle.35be4fa9.css)
+0007.928 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.928 () Moving old data: can potentially use wp_filesystem method / -old
+0007.928 () Moving old data out of the way...
+0007.982 () Top-level entities being moved: index.php, updraftplus
+0007.983 () Moving unpacked backup into place...
+0008.487 () Top-level entities being moved: elementor-pro, image-optimization, ocean-extra, all-in-one-seo-pack, index.php, elementor, all-in-one-seo-pack-pro, updraftplus, aioseo-local-business, aioseo-redirects, essential-addons-for-elementor-lite, wp-rocket, wp-reviews-plugin-for-google, essential-addons-elementor
+0008.490 () Cleaning up rubbish...
+0008.493 () Entity: themes
+0008.493 () restore_backup(backup_file=backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-themes.zip, type=themes, info=a:3:{s:4:"path";s:51:"/opt/lampp/htdocs/psigiovanaceron/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0008.494 () Unpacking backup... (backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-themes.zip, 5.1 MB)
+0008.494 () Unzipping backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-themes.zip to /opt/lampp/htdocs/psigiovanaceron/wp-content/upgrade/73c1ff1b/ using UpdraftPlus_ZipArchive, starting index 0
+0008.611 () Unzip progress: 783 out of 783 files (16.9 MB, themes/index.php)
+0008.612 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.612 () Moving old data: can potentially use wp_filesystem method / -old
+0008.612 () Moving old data out of the way...
+0008.633 () Top-level entities being moved: twentytwentythree, index.php, twentytwentyfive, twentytwentyfour
+0008.633 () Moving unpacked backup into place...
+0008.663 () Top-level entities being moved: index.php, oceanwp
+0008.663 () Cleaning up rubbish...
+0008.665 () Entity: uploads
+0008.666 () restore_backup(backup_file=backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:52:"/opt/lampp/htdocs/psigiovanaceron/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0008.666 () Unpacking backup... (backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-uploads.zip, 4.8 MB)
+0008.666 () Unzipping backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-uploads.zip to /opt/lampp/htdocs/psigiovanaceron/wp-content/upgrade/b61160fd/ using UpdraftPlus_ZipArchive, starting index 0
+0008.712 () Unzip progress: 196 out of 196 files (9 MB, uploads/elementor/css/post-8.css)
+0008.712 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.712 () Moving old data: can potentially use wp_filesystem method / -old
+0008.712 () Moving old data out of the way...
+0008.713 () Moving unpacked backup into place...
+0008.720 () Cleaning up rubbish...
+0008.722 () Entity: others
+0008.722 () restore_backup(backup_file=backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-others.zip, type=others, info=a:2:{s:4:"path";s:44:"/opt/lampp/htdocs/psigiovanaceron/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0008.723 () Unpacking backup... (backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-others.zip, 2.8 MB)
+0008.723 () Unzipping backup_2025-08-07-1719_Psicologa_Giovana_Ceron_4f449998cc21-others.zip to /opt/lampp/htdocs/psigiovanaceron/wp-content/upgrade/21e948c3/ using UpdraftPlus_ZipArchive, starting index 0
+0008.787 () Unzip progress: 193 out of 193 files (9.8 MB, advanced-cache.php)
+0008.788 () advanced-cache.php: Skipping cache file (does not already exist)
+0008.788 () Cleaning up rubbish...
+0008.795 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0008.800 () Restore successful!
+0008.801 () Restore successful

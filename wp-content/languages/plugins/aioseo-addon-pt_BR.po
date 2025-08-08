@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-17T23:27:53+00:00\n"
+"PO-Revision-Date: 2025-07-17T23:27:53+00:00\n"
+"Language: \n"
+
+#. Plugin Name of the plugin
+#: aioseo-addon.php
+msgid "AIOSEO - Template Addon (FOR DEVELOPMENT PURPOSES ONLY)"
+msgstr "AIOSEO — Complemento de modelo (SOMENTE PARA FINS DE DESENVOLVIMENTO)"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: aioseo-addon.php
+msgid "https://aioseo.com"
+msgstr "https://aioseo.com"
+
+#. Description of the plugin
+#: aioseo-addon.php
+msgid "Extends the main plugin."
+msgstr "Amplia o plugin principal."
+
+#. Author of the plugin
+#: aioseo-addon.php
+msgid "All in One SEO Team"
+msgstr "Equipe All in One SEO"
+
+#: app/Addon.php:99
+msgid "Plugin is missing required dependencies. Please contact support for more information."
+msgstr "O plugin não apresenta as dependências necessárias. Entre em contato com o suporte para obter mais informações."
+
+#. Translators: 1 - Opening link tag, 2 - Closing link tag.
+#: extend/init.php:160
+#, php-format
+msgid "Your site is running an outdated version of PHP that is no longer supported and is not compatible with the following addons (%1$sRead more%2$s for additional information):"
+msgstr "Seu site possui uma versão de PHP desatualizada que não é mais compatível com os seguintes complementos (%1$ssaiba mais%2$s):"
+
+#. Translators: 1 - "All in One SEO 4.0.0".
+#: extend/init.php:167
+#, php-format
+msgid "The following addons cannot be used, because they require an update to work with %1$s:"
+msgstr "Os seguintes complementos não podem ser usados por exigirem uma atualização para funcionar com o %1$s:"
+
+#. Translators: 1 - "All in One SEO", 2 - Opening HTML link tag, 3 - Closing HTML link tag.
+#: extend/init.php:173
+#, php-format
+msgid "The following addons cannot be used, because they require an active license for %1$s. Your license is missing or has expired. To verify your subscription, please %2$svisit our website%3$s."
+msgstr "Estes complementos não podem ser usados porque requerem uma licença do %1$s ativa. Você não tem uma licença, ou a que tinha já expirou. Para verificar a sua assinatura, %2$sacesse nosso site%3$s."
+
+#. Translators: 1 - "All in One SEO 4.0.0".
+#: extend/init.php:181
+#, php-format
+msgid "The following addons cannot be used, because they require %1$s or later to work:"
+msgstr "Os seguintes complementos não podem ser usados por exigirem o %1$s  ou versão posterior para funcionar:"
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: extend/init.php:187
+#, php-format
+msgid "The following addons cannot be used, because your plan has expired. To renew your subscription, please %1$svisit our website%2$s."
+msgstr "Os complementos a seguir não podem ser usados porque o seu plano já expirou. Para renovar a sua assinatura, %1$sacesse nosso site%2$s."
+
+#: extend/init.php:201
+msgid "Unlicensed"
+msgstr "Sem licença"
+
+#. Translators: 1 - The current plan name, 2 - Opening HTML link tag, 3 - Closing HTML link tag.
+#: extend/init.php:207
+#, php-format
+msgid "The following addons cannot be used, because your plan level %1$s does not include access to these addons. To upgrade your subscription, please %2$svisit our website%3$s."
+msgstr "Os complementos a seguir não podem ser usados devido à falta de acesso do nível do seu plano %1$s. %2$sAcesse nosso site%3$s para atualizar a sua assinatura."
+
+#. Translators: 1 - "AIOSEO Pro"
+#: extend/init.php:459
+#, php-format
+msgid "Enable the %1$s plugin to manage auto-updates"
+msgstr "Ative o plugin %1$s para gerenciar atualizações automáticas"

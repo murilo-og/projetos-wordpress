@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-17T23:28:19+00:00\n"
+"PO-Revision-Date: 2025-07-17T23:28:19+00:00\n"
+"Language: \n"
+
+#. Plugin Name of the plugin
+#: aioseo-redirects.php
+msgid "AIOSEO - Redirects"
+msgstr "AIOSEO — Redirecionamentos"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: aioseo-redirects.php
+msgid "https://aioseo.com"
+msgstr "https://aioseo.com"
+
+#. Description of the plugin
+#: aioseo-redirects.php
+msgid "Adds redirection support to AIOSEO."
+msgstr "Adiciona suporte de redirecionamento ao AIOSEO."
+
+#. Author of the plugin
+#: aioseo-redirects.php
+msgid "All in One SEO Team"
+msgstr "Equipe All in One SEO"
+
+#. Translators: 1 - HTTP status code expected, 2 - HTTP status code received.
+#: app/Api/Redirects.php:584
+#, php-format
+msgid "Response code was not the same. Expected %1$s and received %2$s."
+msgstr "O código de resposta não foi o mesmo. Era esperado %1$s, e foi recebido %2$s."
+
+#. Translators: 1 - URL expected, 2 - URL found.
+#: app/Api/Redirects.php:637
+#, php-format
+msgid "Target url was not the same. Expected %1$s and found %2$s"
+msgstr "O URL de destino não é o mesmo. Era esperado %1$s, e foi encontrado %2$s."
+
+#: app/Api/Redirects.php:643
+msgid "Redirect failed for the url."
+msgstr "Falha no redirecionamento para o url."
+
+#. Translators: 1 - HTTP header 'x-redirect-by'.
+#: app/Api/Redirects.php:655
+#, php-format
+msgid "This redirect seems not to be done by AIOSEO. Expected header 'x-redirect-by' to be 'AIOSEO' but found '%1$s' instead."
+msgstr "É possível que esse redirecionamento não tenha sido feito pelo AIOSEO. O cabeçalho “x-redirect-by” deveria ser “AIOSEO”, mas indica “%1$s”."
+
+#: app/Main/Server/Test.php:61
+msgid "Server Redirects Missing"
+msgstr "Não há redirecionamentos de servidor"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Main/Server/Test.php:64
+#, php-format
+msgid "Warning: %1$s was unable to detect server level redirects. This probably means the redirects have not been added properly. You may need to reload your server configuration or restart it in order for the redirects to take place."
+msgstr "Aviso: o %1$s não detectou redirecionamentos em nível de servidor. É provável que os redirecionamentos não tenham sido adicionados adequadamente e que você precise recarregar ou reiniciar a sua configuração de servidor para que haja redirecionamentos."
+
+#: app/Main/Server/Test.php:69
+msgid "Learn More"
+msgstr "Saiba mais"
+
+#: app/Models/Redirect.php:149
+msgid "source url set once post is published"
+msgstr "URL de fonte definido depois que o post é publicado"
+
+#: app/Models/Redirect.php:217
+#: app/Utils/Helpers.php:119
+msgid "All"
+msgstr "Todos"
+
+#: app/Models/Redirect.php:223
+#: app/Utils/Helpers.php:125
+msgid "Enabled"
+msgstr "Ativado"
+
+#: app/Models/Redirect.php:229
+#: app/Utils/Helpers.php:131
+msgid "Disabled"
+msgstr "Desativado"
+
+#: app/Models/Redirect.php:247
+msgid "External"
+msgstr "Externo"
+
+#: app/Models/Redirect.php:249
+msgid "Modified Post"
+msgstr "Post modificado"
+
+#: app/Models/Redirect.php:253
+msgid "Imported"
+msgstr "Importado"
+
+#: app/Models/Redirect.php:256
+msgid "Manual Redirect"
+msgstr "Redirecionamento manual"
+
+#: app/Redirects.php:244
+msgid "Plugin is missing required dependencies. Please contact support for more information."
+msgstr "O plugin não apresenta as dependências necessárias. Entre em contato com o suporte para obter mais informações."
+
+#: app/Utils/Options.php:156
+#: app/Utils/Options.php:157
+msgid "1 week"
+msgstr "1 semana"
+
+#: app/Utils/Options.php:158
+msgid "Full Logging"
+msgstr "Registro completo"
+
+#: app/Utils/Options.php:159
+msgid "1 hour"
+msgstr "1 hora"
+
+#: app/Utils/Options.php:160
+msgid "Exact match all parameters in any order"
+msgstr "Corresponder exatamente todos os parâmetros em qualquer ordem"
