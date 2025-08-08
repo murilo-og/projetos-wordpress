@@ -1,0 +1,280 @@
+0000.000 (0) Opened log file at time: Fri, 08 Aug 2025 17:05:57 +0000 on http://localhost/psigiovanaceron
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Linux Linux 5.15.0-151-generic #161-Ubuntu SMP Tue Jul 22 14:25:40 UTC 2025 x86_64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 97.5M | 99M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: pt_BR.UTF-8 WP Proxy: disabled ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 811655.3 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.011 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1754597945, seconds_ago=74812)
+0000.012 (0) Semaphore (fd, wps_options) was stuck, set lock time to 2025-08-08 17:05:57
+0000.014 (0) Semaphore (fd, wps_options) reset to 1
+0000.015 (0) Set semaphore last lock (fd) time to 2025-08-08 17:05:57
+0000.015 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=f6488a2fb6d5, file_nonce=f6488a2fb6d5 begun at=1754672757 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1754673057) in case this run gets aborted
+0000.034 (0) Checking if we have a zip executable available
+0000.035 (0) Testing: /usr/bin/zip
+0000.040 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.041 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.042 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.042 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.043 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.051 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.052 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.057 (0) Working binary zip found: /usr/bin/zip
+0000.058 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.059 (0) Creation of backups of directories: beginning
+0000.060 (0) No backup of plugins: excluded by user's options
+0000.060 (0) No backup of themes: excluded by user's options
+0000.061 (0) No backup of uploads: excluded by user's options
+0000.061 (0) No backup of mu-plugins: excluded by user's options
+0000.061 (0) No backup of others: excluded by user's options
+0000.063 (0) Saving backup status to database (elements: 0)
+0000.064 (0) Beginning creation of database dump (WordPress DB)
+0000.064 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.073 (0) Table wps_options: Total expected rows (via COUNT): 468
+0000.074 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.101 (0) Table wps_options: Rows added in this batch (next record: 14318): 463 (uncompressed bytes in this segment=756014) in 0.03 seconds
+0000.104 (0) Table wps_options: finishing file(s) (2, 152.6 KB)
+0000.107 (0) Table wps_users: Total expected rows (via COUNT): 1
+0000.107 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.108 (0) Table wps_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1202) in 0.00 seconds
+0000.110 (0) Table wps_users: finishing file(s) (2, 0.6 KB)
+0000.113 (0) Table wps_usermeta: Total expected rows (via COUNT): 33
+0000.113 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.115 (0) Table wps_usermeta: Rows added in this batch (next record: 35): 33 (uncompressed bytes in this segment=16457) in 0.00 seconds
+0000.117 (0) Table wps_usermeta: finishing file(s) (2, 6.3 KB)
+0000.120 (0) Table wps_actionscheduler_actions: Total expected rows (via COUNT): 782
+0000.136 (0) Table wps_actionscheduler_actions: Rows added in this batch (next record: 7833): 782 (uncompressed bytes in this segment=373219) in 0.02 seconds
+0000.138 (0) Table wps_actionscheduler_actions: finishing file(s) (2, 21.8 KB)
+0000.140 (0) Table wps_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.141 (0) Table wps_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.00 seconds
+0000.142 (0) Table wps_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.144 (0) Table wps_actionscheduler_groups: Total expected rows (via COUNT): 8
+0000.144 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.145 (0) Table wps_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=877) in 0.00 seconds
+0000.146 (0) Table wps_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0000.148 (0) Table wps_actionscheduler_logs: Total expected rows (approximate): 2320
+0000.170 (0) Table wps_actionscheduler_logs: Rows added in this batch (next record: 22419): 2320 (uncompressed bytes in this segment=206396) in 0.02 seconds
+0000.172 (0) Table wps_actionscheduler_logs: finishing file(s) (2, 22.2 KB)
+0000.175 (0) Table wps_commentmeta: Total expected rows (via COUNT): 0
+0000.176 (0) Table wps_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=640) in 0.00 seconds
+0000.177 (0) Table wps_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.180 (0) Table wps_comments: Total expected rows (via COUNT): 1
+0000.180 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.181 (0) Table wps_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1895) in 0.00 seconds
+0000.183 (0) Table wps_comments: finishing file(s) (2, 0.7 KB)
+0000.184 (0) Table wps_links: Total expected rows (via COUNT): 0
+0000.185 (0) Table wps_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.00 seconds
+0000.187 (0) Table wps_links: finishing file(s) (2, 0.5 KB)
+0000.296 (0) Table wps_postmeta: Total expected rows (approximate): 5708
+0000.688 (0) Table wps_postmeta: Rows added in this batch (next record: 9046): 5708 (uncompressed bytes in this segment=23264718) in 0.50 seconds
+0000.691 (0) Table wps_postmeta: finishing file(s) (2, 1874.8 KB)
+0000.699 (0) Table wps_posts: Total expected rows (via COUNT): 663
+0000.746 (0) Table wps_posts: Rows added in this batch (next record: 810): 663 (uncompressed bytes in this segment=4345916) in 0.05 seconds
+0000.749 (0) Table wps_posts: finishing file(s) (2, 58 KB)
+0000.752 (0) Table wps_term_relationships: Total expected rows (approximate): 6
+0000.754 (0) Table wps_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=772) in 0.00 seconds
+0000.755 (0) Table wps_term_relationships: finishing file(s) (2, 0.4 KB)
+0000.759 (0) Table wps_term_taxonomy: Total expected rows (via COUNT): 6
+0000.760 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.761 (0) Table wps_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1097) in 0.00 seconds
+0000.763 (0) Table wps_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0000.767 (0) Table wps_termmeta: Total expected rows (via COUNT): 0
+0000.768 (0) Table wps_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=613) in 0.00 seconds
+0000.770 (0) Table wps_termmeta: finishing file(s) (2, 0.4 KB)
+0000.773 (0) Table wps_terms: Total expected rows (via COUNT): 6
+0000.773 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.775 (0) Table wps_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=846) in 0.00 seconds
+0000.776 (0) Table wps_terms: finishing file(s) (2, 0.5 KB)
+0000.780 (0) Table wps_wpr_above_the_fold: Total expected rows (via COUNT): 0
+0000.781 (0) Table wps_wpr_above_the_fold: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=988) in 0.00 seconds
+0000.783 (0) Table wps_wpr_above_the_fold: finishing file(s) (2, 0.5 KB)
+0000.787 (0) Table wps_wpr_lazy_render_content: Total expected rows (via COUNT): 0
+0000.788 (0) Table wps_wpr_lazy_render_content: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1037) in 0.00 seconds
+0000.790 (0) Table wps_wpr_lazy_render_content: finishing file(s) (2, 0.5 KB)
+0000.794 (0) Table wps_wpr_rocket_cache: Total expected rows (via COUNT): 1
+0000.794 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.796 (0) Table wps_wpr_rocket_cache: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=979) in 0.00 seconds
+0000.797 (0) Table wps_wpr_rocket_cache: finishing file(s) (2, 0.5 KB)
+0000.802 (0) Table wps_wpr_rucss_used_css: Total expected rows (via COUNT): 0
+0000.804 (0) Table wps_wpr_rucss_used_css: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1385) in 0.00 seconds
+0000.806 (0) Table wps_wpr_rucss_used_css: finishing file(s) (2, 0.6 KB)
+0000.812 (0) Table wps_aioseo_blc_cache: Total expected rows (via COUNT): 7
+0000.812 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.814 (0) Table wps_aioseo_blc_cache: Rows added in this batch (next record: 8): 7 (uncompressed bytes in this segment=1571) in 0.00 seconds
+0000.816 (0) Table wps_aioseo_blc_cache: finishing file(s) (2, 0.6 KB)
+0000.820 (0) Table wps_aioseo_blc_link_status: Total expected rows (via COUNT): 3
+0000.821 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.822 (0) Table wps_aioseo_blc_link_status: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1717) in 0.00 seconds
+0000.824 (0) Table wps_aioseo_blc_link_status: finishing file(s) (2, 0.7 KB)
+0000.828 (0) Table wps_aioseo_blc_links: Total expected rows (via COUNT): 13
+0000.828 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.830 (0) Table wps_aioseo_blc_links: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=7063) in 0.00 seconds
+0000.832 (0) Table wps_aioseo_blc_links: finishing file(s) (2, 1.1 KB)
+0000.836 (0) Table wps_aioseo_blc_notifications: Total expected rows (via COUNT): 0
+0000.837 (0) Table wps_aioseo_blc_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1379) in 0.00 seconds
+0000.839 (0) Table wps_aioseo_blc_notifications: finishing file(s) (2, 0.5 KB)
+0000.841 (0) Table wps_aioseo_blc_posts: Total expected rows (via COUNT): 6
+0000.842 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.843 (0) Table wps_aioseo_blc_posts: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1184) in 0.00 seconds
+0000.844 (0) Table wps_aioseo_blc_posts: finishing file(s) (2, 0.5 KB)
+0000.847 (0) Table wps_aioseo_cache: Total expected rows (via COUNT): 63
+0000.847 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.852 (0) Table wps_aioseo_cache: Rows added in this batch (next record: 250): 63 (uncompressed bytes in this segment=124229) in 0.01 seconds
+0000.854 (0) Table wps_aioseo_cache: finishing file(s) (2, 23.5 KB)
+0000.857 (0) Table wps_aioseo_crawl_cleanup_blocked_args: Total expected rows (via COUNT): 0
+0000.858 (0) Table wps_aioseo_crawl_cleanup_blocked_args: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=953) in 0.00 seconds
+0000.859 (0) Table wps_aioseo_crawl_cleanup_blocked_args: finishing file(s) (2, 0.4 KB)
+0000.862 (0) Table wps_aioseo_crawl_cleanup_logs: Total expected rows (via COUNT): 0
+0000.862 (0) Table wps_aioseo_crawl_cleanup_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.00 seconds
+0000.864 (0) Table wps_aioseo_crawl_cleanup_logs: finishing file(s) (2, 0.4 KB)
+0000.866 (0) Table wps_aioseo_notifications: Total expected rows (via COUNT): 10
+0000.866 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.868 (0) Table wps_aioseo_notifications: Rows added in this batch (next record: 11): 10 (uncompressed bytes in this segment=20657) in 0.00 seconds
+0000.870 (0) Table wps_aioseo_notifications: finishing file(s) (2, 11.3 KB)
+0000.873 (0) Table wps_aioseo_posts: Total expected rows (via COUNT): 15
+0000.873 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.875 (0) Table wps_aioseo_posts: Rows added in this batch (next record: 16): 15 (uncompressed bytes in this segment=18836) in 0.00 seconds
+0000.877 (0) Table wps_aioseo_posts: finishing file(s) (2, 2.1 KB)
+0000.880 (0) Table wps_aioseo_redirects: Total expected rows (via COUNT): 0
+0000.881 (0) Table wps_aioseo_redirects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1561) in 0.00 seconds
+0000.882 (0) Table wps_aioseo_redirects: finishing file(s) (2, 0.6 KB)
+0000.885 (0) Table wps_aioseo_redirects_404: Total expected rows (via COUNT): 0
+0000.886 (0) Table wps_aioseo_redirects_404: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=894) in 0.00 seconds
+0000.887 (0) Table wps_aioseo_redirects_404: finishing file(s) (2, 0.4 KB)
+0000.889 (0) Table wps_aioseo_redirects_404_logs: Total expected rows (via COUNT): 170
+0000.889 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.892 (0) Table wps_aioseo_redirects_404_logs: Rows added in this batch (next record: 3338): 170 (uncompressed bytes in this segment=51678) in 0.00 seconds
+0000.894 (0) Table wps_aioseo_redirects_404_logs: finishing file(s) (2, 3.8 KB)
+0000.897 (0) Table wps_aioseo_redirects_hits: Total expected rows (via COUNT): 0
+0000.897 (0) Table wps_aioseo_redirects_hits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.00 seconds
+0000.899 (0) Table wps_aioseo_redirects_hits: finishing file(s) (2, 0.4 KB)
+0000.901 (0) Table wps_aioseo_redirects_logs: Total expected rows (via COUNT): 0
+0000.901 (0) Table wps_aioseo_redirects_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1151) in 0.00 seconds
+0000.902 (0) Table wps_aioseo_redirects_logs: finishing file(s) (2, 0.5 KB)
+0000.906 (0) Table wps_aioseo_terms: Total expected rows (via COUNT): 0
+0000.907 (0) Table wps_aioseo_terms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2539) in 0.00 seconds
+0000.909 (0) Table wps_aioseo_terms: finishing file(s) (2, 0.7 KB)
+0000.912 (0) Table wps_aioseo_writing_assistant_keywords: Total expected rows (via COUNT): 0
+0000.913 (0) Table wps_aioseo_writing_assistant_keywords: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0000.914 (0) Table wps_aioseo_writing_assistant_keywords: finishing file(s) (2, 0.5 KB)
+0000.917 (0) Table wps_aioseo_writing_assistant_posts: Total expected rows (via COUNT): 0
+0000.918 (0) Table wps_aioseo_writing_assistant_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=930) in 0.00 seconds
+0000.919 (0) Table wps_aioseo_writing_assistant_posts: finishing file(s) (2, 0.4 KB)
+0000.921 (0) Table wps_e_events: Total expected rows (via COUNT): 0
+0000.922 (0) Table wps_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=517) in 0.00 seconds
+0000.923 (0) Table wps_e_events: finishing file(s) (2, 0.4 KB)
+0000.925 (0) Table wps_e_submissions: Total expected rows (via COUNT): 0
+0000.926 (0) Table wps_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1985) in 0.00 seconds
+0000.928 (0) Table wps_e_submissions: finishing file(s) (2, 0.7 KB)
+0000.930 (0) Table wps_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0000.930 (0) Table wps_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1146) in 0.00 seconds
+0000.932 (0) Table wps_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0000.935 (0) Table wps_e_submissions_values: Total expected rows (via COUNT): 0
+0000.935 (0) Table wps_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0000.937 (0) Table wps_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0000.939 (0) Table wps_trustindex_google_reviews: Total expected rows (approximate): 10
+0000.940 (0) Table wps_trustindex_google_reviews: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=3485) in 0.00 seconds
+0000.942 (0) Table wps_trustindex_google_reviews: finishing file(s) (2, 1.5 KB)
+0000.942 (0) PHP event: code E_WARNING: filemtime(): stat failed for /opt/lampp/htdocs/psigiovanaceron/wp-content/updraft/backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0000.943 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_options.table.tmpr14319.gz (1/43/fopen): adding to final database dump
+0000.946 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_options.table.gz (2/43/fopen): adding to final database dump
+0000.947 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_users.table.tmpr2.gz (3/43/fopen): adding to final database dump
+0000.947 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_users.table.gz (4/43/fopen): adding to final database dump
+0000.948 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_usermeta.table.tmpr36.gz (5/43/fopen): adding to final database dump
+0000.948 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_usermeta.table.gz (6/43/fopen): adding to final database dump
+0000.948 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_actions.table.tmpr7834.gz (7/43/fopen): adding to final database dump
+0000.949 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_actions.table.gz (8/43/fopen): adding to final database dump
+0000.949 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_claims.table.tmpr0.gz (9/43/fopen): adding to final database dump
+0000.950 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_claims.table.gz (10/43/fopen): adding to final database dump
+0000.950 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_groups.table.tmpr9.gz (11/43/fopen): adding to final database dump
+0000.950 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_groups.table.gz (12/43/fopen): adding to final database dump
+0000.951 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_logs.table.tmpr22420.gz (13/43/fopen): adding to final database dump
+0000.951 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_actionscheduler_logs.table.gz (14/43/fopen): adding to final database dump
+0000.952 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_commentmeta.table.tmpr0.gz (15/43/fopen): adding to final database dump
+0000.952 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_commentmeta.table.gz (16/43/fopen): adding to final database dump
+0000.953 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_comments.table.tmpr2.gz (17/43/fopen): adding to final database dump
+0000.953 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_comments.table.gz (18/43/fopen): adding to final database dump
+0000.953 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_links.table.tmpr0.gz (19/43/fopen): adding to final database dump
+0000.954 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_links.table.gz (20/43/fopen): adding to final database dump
+0000.954 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_postmeta.table.tmpr9047.gz (21/43/fopen): adding to final database dump
+0000.978 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_postmeta.table.gz (22/43/fopen): adding to final database dump
+0000.979 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_posts.table.tmpr811.gz (23/43/fopen): adding to final database dump
+0000.980 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_posts.table.gz (24/43/fopen): adding to final database dump
+0000.981 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_term_relationships.table.tmpr100001.gz (25/43/fopen): adding to final database dump
+0000.981 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_term_relationships.table.gz (26/43/fopen): adding to final database dump
+0000.982 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_term_taxonomy.table.tmpr7.gz (27/43/fopen): adding to final database dump
+0000.982 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_term_taxonomy.table.gz (28/43/fopen): adding to final database dump
+0000.983 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_termmeta.table.tmpr0.gz (29/43/fopen): adding to final database dump
+0000.983 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_termmeta.table.gz (30/43/fopen): adding to final database dump
+0000.984 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_terms.table.tmpr7.gz (31/43/fopen): adding to final database dump
+0000.984 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_terms.table.gz (32/43/fopen): adding to final database dump
+0000.985 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_above_the_fold.table.tmpr0.gz (33/43/fopen): adding to final database dump
+0000.985 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_above_the_fold.table.gz (34/43/fopen): adding to final database dump
+0000.985 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_lazy_render_content.table.tmpr0.gz (35/43/fopen): adding to final database dump
+0000.986 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_lazy_render_content.table.gz (36/43/fopen): adding to final database dump
+0000.986 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_rocket_cache.table.tmpr3.gz (37/43/fopen): adding to final database dump
+0000.987 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_rocket_cache.table.gz (38/43/fopen): adding to final database dump
+0000.987 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_rucss_used_css.table.tmpr0.gz (39/43/fopen): adding to final database dump
+0000.988 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_wpr_rucss_used_css.table.gz (40/43/fopen): adding to final database dump
+0000.988 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_cache.table.tmpr9.gz (41/43/fopen): adding to final database dump
+0000.989 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_cache.table.gz (42/43/fopen): adding to final database dump
+0000.989 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_link_status.table.tmpr4.gz (43/43/fopen): adding to final database dump
+0000.989 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_link_status.table.gz (44/43/fopen): adding to final database dump
+0000.990 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_links.table.tmpr14.gz (45/43/fopen): adding to final database dump
+0000.990 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_links.table.gz (46/43/fopen): adding to final database dump
+0000.991 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_notifications.table.tmpr0.gz (47/43/fopen): adding to final database dump
+0000.991 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_notifications.table.gz (48/43/fopen): adding to final database dump
+0000.991 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_posts.table.tmpr7.gz (49/43/fopen): adding to final database dump
+0000.992 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_blc_posts.table.gz (50/43/fopen): adding to final database dump
+0000.992 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_cache.table.tmpr251.gz (51/43/fopen): adding to final database dump
+0000.993 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_cache.table.gz (52/43/fopen): adding to final database dump
+0000.993 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_crawl_cleanup_blocked_args.table.tmpr0.gz (53/43/fopen): adding to final database dump
+0000.994 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_crawl_cleanup_blocked_args.table.gz (54/43/fopen): adding to final database dump
+0000.994 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_crawl_cleanup_logs.table.tmpr0.gz (55/43/fopen): adding to final database dump
+0000.995 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_crawl_cleanup_logs.table.gz (56/43/fopen): adding to final database dump
+0000.995 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_notifications.table.tmpr12.gz (57/43/fopen): adding to final database dump
+0000.996 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_notifications.table.gz (58/43/fopen): adding to final database dump
+0000.996 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_posts.table.tmpr17.gz (59/43/fopen): adding to final database dump
+0000.997 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_posts.table.gz (60/43/fopen): adding to final database dump
+0000.997 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects.table.tmpr0.gz (61/43/fopen): adding to final database dump
+0000.997 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects.table.gz (62/43/fopen): adding to final database dump
+0000.998 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_404.table.tmpr0.gz (63/43/fopen): adding to final database dump
+0000.998 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_404.table.gz (64/43/fopen): adding to final database dump
+0000.999 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_404_logs.table.tmpr3339.gz (65/43/fopen): adding to final database dump
+0000.999 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_404_logs.table.gz (66/43/fopen): adding to final database dump
+0001.000 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_hits.table.tmpr0.gz (67/43/fopen): adding to final database dump
+0001.000 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_hits.table.gz (68/43/fopen): adding to final database dump
+0001.000 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_logs.table.tmpr0.gz (69/43/fopen): adding to final database dump
+0001.001 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_redirects_logs.table.gz (70/43/fopen): adding to final database dump
+0001.001 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_terms.table.tmpr0.gz (71/43/fopen): adding to final database dump
+0001.002 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_terms.table.gz (72/43/fopen): adding to final database dump
+0001.002 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_writing_assistant_keywords.table.tmpr0.gz (73/43/fopen): adding to final database dump
+0001.002 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_writing_assistant_keywords.table.gz (74/43/fopen): adding to final database dump
+0001.003 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_writing_assistant_posts.table.tmpr0.gz (75/43/fopen): adding to final database dump
+0001.003 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_aioseo_writing_assistant_posts.table.gz (76/43/fopen): adding to final database dump
+0001.004 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_events.table.tmpr0.gz (77/43/fopen): adding to final database dump
+0001.004 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_events.table.gz (78/43/fopen): adding to final database dump
+0001.004 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_submissions.table.tmpr0.gz (79/43/fopen): adding to final database dump
+0001.005 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_submissions.table.gz (80/43/fopen): adding to final database dump
+0001.005 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_submissions_actions_log.table.tmpr0.gz (81/43/fopen): adding to final database dump
+0001.006 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_submissions_actions_log.table.gz (82/43/fopen): adding to final database dump
+0001.006 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_submissions_values.table.tmpr0.gz (83/43/fopen): adding to final database dump
+0001.006 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_e_submissions_values.table.gz (84/43/fopen): adding to final database dump
+0001.007 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_trustindex_google_reviews.table.tmpr1001.gz (85/43/fopen): adding to final database dump
+0001.007 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db-table-wps_trustindex_google_reviews.table.gz (86/43/fopen): adding to final database dump
+0001.011 (0) An error occurred while attempting to retrieve routine status (Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100432. Please use mysql_upgrade to fix this error - SHOW FUNCTION STATUS WHERE DB = 'psigiovana')
+0001.011 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db.gz: finished writing out complete database file (2194.1 KB)
+0001.040 (0) Total database tables backed up: 43 (backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db.gz, size: 2246865, sha1: 0d80c8a0da97e7ffd8c6804089d1fb9f425e7f72, sha256: f5777c902f591d4d621f7a5ef1804d370b5cb63ef647ca0f239c74d7aa85927e)
+0001.044 (0) backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.045 (0) Saving backup history. Total backup size: 2.1 MB
+0001.047 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.048 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.049 (0) No remote despatch: user chose no remote backup service
+0001.049 (0) Recording as successfully uploaded: backup_2025-08-08-1405_Psicologa_Giovana_Ceron_f6488a2fb6d5-db.gz
+0001.050 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0001.051 (0) Resume backup (f6488a2fb6d5, 0): finish run
+0001.052 (0) Decremented the semaphore (fd) by 1
+0001.053 (0) Semaphore (fd) unlocked
+0001.053 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.055 (0) No email will/can be sent - the user has not configured an email address.
+0001.055 (0) The backup succeeded and is now complete
